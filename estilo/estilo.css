@@ -1,0 +1,381 @@
+
+.body {
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Raleway', sans-serif;
+    background-color: #E5E1E1;
+  }
+.titulo{
+    color: #5E147D;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 50px;
+    font-size: 30px;
+    font-weight:bold;
+    display: none;
+}
+.subtitulo{
+    color: white;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    font-weight:bold;
+    margin-left: 40px;
+    width: 800px;
+    display: none;
+    font-size: 20px;
+    border: solid white;
+    padding: 12px;
+    border-width: 2px;
+    background-color:  #5E147D ;
+
+}
+.entradas{
+    color: black;
+    font-size: 15px;
+    font-weight:bold;
+    margin-left: 40px;
+    display: none;
+}
+.boton1{
+    margin-left: 40px;
+    color: white;
+    font-weight: bold;
+    background-color: darkslategray ;
+    font-size: 15px;
+    border: solid darkslategray;
+    border-width: 2px;
+    padding: 2px;
+    transition: 0.4s;
+    margin-left: 40px;
+    text-align: center;
+}
+.boton1:hover{
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    border: solid white;
+    border-width: 2px;
+    padding: 3px;
+    
+    
+}
+
+.boton{
+    color: white;
+    font-weight: bold;
+    background-color: darkslategray ;
+    font-size: 15px;
+    border: solid darkslategray;
+    border-width: 2px;
+    padding: 2px;
+    transition: 0.4s;
+    margin-left: 40px;
+}
+.boton:hover{
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    border: solid white;
+    border-width: 2px;
+    padding: 3px;
+    
+}
+
+#unidades{
+    padding: 10px;
+    color: navy;
+    border: solid black;
+    border-width: 2px;
+    width: 500px;
+    background-color: whitesmoke;
+    text-align: center;
+    margin-left: 40px;
+    margin-top: 10px;
+    font-size: 20px;
+    font-weight: bold;
+}
+#monto{
+    padding: 10px;
+    color: green;
+    border: solid black;
+    border-width: 2px;
+    width: 500px;
+    background-color: whitesmoke;
+    text-align: center;
+    margin-left: 40px;
+    margin-top: 40px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.gracias{
+    padding: 10px;
+    margin-top: 50px;
+    color:brown;
+    border: solid brown;
+    border-width: 3px;
+    width: 500px;
+    text-align: center;
+    background-color: whitesmoke;
+    margin-left: 40px;
+}
+#demov2019{
+    font-size: 18px;
+    margin-left: 40px;
+    font-weight: bold;
+    color: green;
+    
+}
+#demou2019{
+    font-size: 18px;
+    margin-left: 40px;
+    font-weight: bold;
+    color: green;
+    
+}
+#demov2020{
+    font-size: 18px;
+    margin-left: 40px;
+    font-weight: bold;
+    color: green;
+}
+#demou2020{
+    font-size: 18px;
+    margin-left: 40px;
+    font-weight: bold;
+    color: green;
+}
+#demoi2021{
+    font-size: 18px;
+    margin-left: 40px;
+    font-weight: bold;
+    color: green;
+}
+.tituloInicio{
+        color: black;
+        text-align: center;
+        margin-top: 40px;
+        margin-bottom: 50px;
+        font-size: 60px;
+        font-weight:bold;
+        display: none;
+        animation-name: inicio;
+	    animation-duration: 2s;
+	    animation-iteration-count: 1s;
+	    animation-timing-function: ease;
+	    animation-delay: 1s;
+
+}
+@keyframes inicio {
+    0%{color: white; }
+	100%{color: black; } 
+}
+.btn3{
+    opacity: 0.9;
+    margin-top: 70px;
+    height: 90px;
+    width: 350px;
+    color: #5E147D;
+    font-weight: bold;
+    border: solid #5E147D;
+    padding: 10px;
+    font-size: 15px;
+    border-width: 3px;
+    text-transform: uppercase;
+    font-family: 'Julius Sans One', sans-serif;
+    transition: 0.5s;
+    
+}
+.btn3:hover{
+    color: black;
+    font-size: 17px;
+    background-color: grey ;
+    border: solid black;
+    opacity: 1;
+    
+}
+.btn4:hover{
+    color: black;
+    font-size: 17px;
+    background-color: grey ;
+    border: solid black;
+    opacity: 1;
+}
+.btn5:hover{
+    color: black;
+    font-size: 17px;
+    background-color: grey ;
+    border: solid black;
+    opacity: 1;
+}
+
+.btn4{
+    transition: 0.5s;
+    margin-top: 70px;
+    opacity: 0.9;
+    height: 90px;
+    width: 350px;
+    color: #5E147D;
+    font-weight: bold;
+    border: solid #5E147D;
+    display: flex;
+    font-size: 15px;
+    border-width: 3px;
+    text-transform: uppercase;
+    padding: 10px;
+    font-family: 'Julius Sans One', sans-serif;
+}
+.btn5{
+    transition: 0.5s;
+    font-family: 'Julius Sans One', sans-serif;
+    margin-top: 70px;
+    opacity: 0.9;
+    height: 90px;
+    width: 350px;
+    color: #5E147D;
+    font-weight: bold;
+    border: solid #5E147D;
+    display: flex;
+    font-size: 15px;
+    border-width: 3px;
+    text-transform: uppercase;
+    padding: 10px;
+}
+a{
+    color: black;
+    font-size: 16px;
+    font-family: 'Julius Sans One', sans-serif;
+    font-weight: bold;
+}
+.menu{
+    background-color: white;
+    opacity: 1;
+    
+}
+.boton1{
+    display: none;
+}
+#img2{
+    width: 400px;
+    height: 400px;
+}
+#img{
+    width: 480px;
+    height: 400px;
+}
+.gif{
+    margin-top: 220px;
+    transition: 0.4s;
+    display: none;
+    opacity: 0.9;
+}
+.gif:hover{
+    height: 280px;
+
+}
+.logo{
+    overflow: hidden;
+}
+#demov2020Usd{
+    font-size: 18px;
+    margin-left: 40px;
+    font-weight: bold;
+    color: green;
+}
+.usdAPI{
+    font-size: 14px;
+    background-color: white;
+    width: 200px;
+    margin-left: 1000px;
+    margin-top: 10px;
+    text-align: center;
+    padding: 5px;
+    color: #0B2C7E;
+    font-weight: bold;
+    border: solid grey;
+    border-width: 2px;
+    font-family: 'Julius Sans One', sans-serif;
+    
+
+}
+#usd2021{
+    padding: 10px;
+    color:  #0B2C7E;
+    width: 800px;
+    text-align: center;
+    margin-left: 40px;
+    margin-top: 40px;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Julius Sans One', sans-serif;
+   
+}
+.usdAPI2{
+    font-size: 10px;
+    background-color: white;
+    width: 150px;
+    margin-left: 20px;
+    margin-top: 15px;
+    text-align: center;
+    padding: 5px;
+    color: black;
+    font-weight: bold;
+    border: solid black;
+    border-width: 2px;
+    font-family: 'Julius Sans One', sans-serif;
+}
+.usdAPI3{
+    width: 150px;
+    font-size: 10px;
+    background-color: white;
+    margin-left: 15px;
+    margin-top: 15px;
+    text-align: center;
+    padding: 5px;
+    color: black;
+    font-weight: bold;
+    border: solid black;
+    border-width: 2px;
+    font-family: 'Julius Sans One', sans-serif;
+}
+.usdAPI4{
+    width: 150px;
+    font-size: 10px;
+    background-color: white;
+    margin-left: 10px;
+    margin-top: 15px;
+    text-align: center;
+    padding: 5px;
+    color: black;
+    font-weight: bold;
+    border: solid black;
+    border-width: 2px;
+    font-family: 'Julius Sans One', sans-serif;
+}
+.usdAPI5{
+    width: 170px;
+    font-size: 10px;
+    background-color: white;
+    margin-left: 10px;
+    margin-top: 15px;
+    text-align: center;
+    padding: 5px;
+    color: black;
+    font-weight: bold;
+    border: solid black;
+    border-width: 2px;
+    font-family: 'Julius Sans One', sans-serif;
+}
+.usdAPI6{
+    width: 150px;
+    font-size: 10px;
+    background-color: white;
+    margin-left: 10px;
+    margin-top: 15px;
+    text-align: center;
+    padding: 5px;
+    color: black;
+    font-weight: bold;
+    border: solid black;
+    border-width: 2px;
+    font-family: 'Julius Sans One', sans-serif;
+}

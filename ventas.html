@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo/estilo.css">
+    <link href="https://fonts.googleapis.com/css2?family=Julius+Sans+One&family=Raleway:wght@100&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <scriptsrc="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+  
+    <title>Document</title>
+</head>
+<body class="body">
+  <nav class="navbar navbar-default">
+    <div class="container-fluid menu"> 
+        <div class="navbar-header">
+            <a class="navbar-brand" href="https://argentinasba.com.ar/"><img class="logo" src="fotos/logo sba.jpg" style="display:inline" alt="logo" width="50" height="25"></a>
+          </div>
+      <ul class="nav navbar-nav">
+        <li><a href="index.html">Inicio</a></li>
+        <li class="active"><a href="ventas.html">Ventas</a></li>
+        <li><a href="inflacion.html">Inflacion</a></li> 
+        <li><a href="usd.html">Ventas en USD</a></li>
+      </ul>
+    </div>  
+  </nav>
+   <div class="container-fluid">
+     <div class="row">
+      <div class="col-md-8">
+    <h1 class="titulo">VENTAS 2019 vs. VENTAS 2020</h1>
+    <h2 class="subtitulo">Vamos a calcular el aumento de las ventas de tu empresa entre el 2019 y el 2020, sin considerar la inflación interanual 2020 de 36,1% para obtener la variación real</h2>
+    <form id="form1">
+    <p class="entradas">➤ Ingresá la facturación anual sin IVA de tu empresa para el 2019 <input type="text" id="v2019"></p>
+    <p id="demov2019"></p><br>
+    <p class="entradas">➤ Ingresá las unidades vendidas en 2019 <input type="text" id="u2019"></p>
+    <p id="demou2019"></p><br>
+    <p class="entradas">➤ Ingresá la facturación anual sin IVA de tu empresa para el 2020 <input type="text" id="v2020"></p>
+    <p id="demov2020"></p><br>
+    <p class="entradas">➤ Ingresá las unidades vendidas en 2020 <input type="text" id="u2020"></p>
+    <p id="demou2020"></p><br>
+    </form>
+    <p><button class="boton">
+        RESULTADO
+      </button></p>
+    
+    <input class="boton1" type="borrar" value="RECALCULAR" onclick="location.reload()"/>  
+  </div>
+    <div class="col-md-1"> <img class="gif" src="fotos/calculadora.gif" widht=200 height=250 alt=""></div> 
+  </div>  
+  </div>
+      <script src="js/main.js"></script>
+</body>
+</html>

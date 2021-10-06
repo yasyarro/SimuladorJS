@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo/estilo.css">
+    <link href="https://fonts.googleapis.com/css2?family=Julius+Sans+One&family=Raleway:wght@100&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <scriptsrc="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    
+    <title>Document</title>
+</head>
+<body class="body" background="fotos/fondo.jpg">
+  <nav class="navbar navbar-default">
+    <div class="container-fluid menu"> 
+      <div class="navbar-header">
+        <a class="navbar-brand" href="https://argentinasba.com.ar/"><img class="logo" src="fotos/logo sba.jpg" style="display:inline" alt="logo" width="50" height="25"></a>
+      </div>
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="index.html">Inicio</a></li>
+        <li><a href="ventas.html">Ventas</a></li>
+        <li><a href="inflacion.html">Inflacion</a></li> 
+        <li><a href="usd.html">Ventas en USD</a></li>
+      </ul>
+    </div>  
+  </nav>
+      <h1 class="tituloInicio">ANALISIS FINANCIERO DE TU NEGOCIO</h1>
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-md-1">
+              <div></div>
+            </div>
+            <div class="col-md-2">
+              <div class="usdAPI2"></div>
+            </div>
+            <div class="col-md-2">
+              <div class="usdAPI3"></div>
+            </div>
+          <div class="col-md-2">
+            <div class="usdAPI4"></div>
+        </div>
+          <div class="col-md-2">
+            <div class="usdAPI5"></div>
+        </div>
+          <div class="col-md-2">
+            <div class="usdAPI6"></div>
+        </div>
+    </div>
+    <div class="container fluid">
+      <div class="row">
+        <div class="col-md-4">
+         <p><button class="btn3" onclick="location.href='ventas.html'">Ingresá para ver la evolución de tus ventas 2019 vs. 2020</button></p>
+        </div>
+         <div class="col-md-4">
+          <p><button class="btn4" onclick="location.href='inflacion.html'">Ingresá para calcular tus ventas en 2021 tomando las proyecciones de inflación</button>
+          </p>
+        </div>
+        <div class="col-md-4">
+          <p><button class="btn5" onclick="location.href='usd.html'">Ingresá para calcular cuanto deben ser tus ventas en 2021 en base al USD informal del día</button>
+          </p>
+        </div>
+        </div>
+      </div>
+
+      <script src="js/modelo.js"></script>
+</body>
+</html>
